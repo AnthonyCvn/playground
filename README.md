@@ -1,6 +1,6 @@
-# README
+# Playground
 
-Welcome to [RedwoodJS](https://redwoodjs.com)!
+Welcome to the playground web app setup with [RedwoodJS](https://redwoodjs.com)!
 
 > **Prerequisites**
 >
