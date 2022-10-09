@@ -23,7 +23,7 @@ const PlaygroundLayout = ({ children }: PlaygroundLayoutProps) => {
                 className="rounded py-2 px-4 transition duration-100 hover:bg-blue-600"
                 to={routes.robertaBaseSquad2()}
               >
-                Roberta Base Squad 2
+                Q & A
               </Link>
             </li>
           </ul>
