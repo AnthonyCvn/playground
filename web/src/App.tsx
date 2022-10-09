@@ -10,13 +10,13 @@ import './index.css'
 
 const App = () => (
   <FatalErrorBoundary page={FatalErrorPage}>
-    <MantineProvider withGlobalStyles withNormalizeCSS>
-      <RedwoodProvider titleTemplate="%PageTitle | %AppTitle">
-        <RedwoodApolloProvider>
+    <RedwoodProvider titleTemplate="%PageTitle | %AppTitle">
+      <RedwoodApolloProvider>
+        <MantineProvider withGlobalStyles withNormalizeCSS>
           <Routes />
-        </RedwoodApolloProvider>
-      </RedwoodProvider>
-    </MantineProvider>
+        </MantineProvider>
+      </RedwoodApolloProvider>
+    </RedwoodProvider>
   </FatalErrorBoundary>
 )
 
